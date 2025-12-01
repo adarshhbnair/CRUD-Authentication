@@ -1,0 +1,26 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "backend for authentication app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adarshhbnair/CRUD-Authentication.git"
+  },
+  "author": "adarsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adarshhbnair/CRUD-Authentication/issues"
+  },
+  "homepage": "https://github.com/adarshhbnair/CRUD-Authentication#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^9.0.0",
+    "nodemon": "^3.1.11"
+  }
+}
